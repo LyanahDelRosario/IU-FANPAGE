@@ -103,7 +103,7 @@ a{
     font-weight: bolder;
 }
 .row{
-    padding-top: 10px;
+    padding-top: 5px;
     size: 10px;
 }
 .card{
@@ -116,5 +116,15 @@ a{
     font-weight: bold;
     height: 20px;
 }
-
-
+audio{
+    max-width: 100%;
+}
+audio::-webkit-media-controls-panel{
+    background-color: #edb0fc;
+}
+audio::-webkit-media-controls-panel{
+    justify-content: center;
+}
+.audio{
+    margin-left: 40px;
+}
