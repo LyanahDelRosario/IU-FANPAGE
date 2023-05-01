@@ -1,12 +1,11 @@
 *{
-    padding: none;
     margin: 0%;
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
 }
 body{
-    font-family: Poppins;
+    font-family: 'Franklin Gothic Regular';
     background: #28182d;
 }
 header{
@@ -17,17 +16,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80 80px;
-    margin-top: 10px;
+    padding: 5px 80px;
 }
 a{
     text-decoration: none;
 }
 .logo{
-    font-family: Romance Logic Demo;
-    font-size:40px;
+    font-family: 'Romance Logic Demo';
+    font-size:30px;
     color: #e1ff00;
-    margin-top: 10px;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -54,6 +51,7 @@ a{
     background: #5e6109;
     padding-left: 7px;
     padding-right: 7px;
+    opacity: 80%;
 }
 .nav-bar ul li a.active{
     color: #fcf3ff;
@@ -76,7 +74,6 @@ a{
 .top-social a{
     padding: 5px;
     color: #28182d;
-    size: 50px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -90,7 +87,6 @@ a{
     }
 }
 .iulogo{
-    padding-top: 8px;
     justify-content: center;
 }
 .iulogo{
@@ -98,33 +94,38 @@ a{
 }
 .album{
     color: #f9e8ff;
-    font-family: Romance Logic Demo;
-    padding-top: 2px;
+    font-family: 'Romance Logic Demo';
     font-weight: bolder;
 }
-.row{
-    padding-top: 5px;
-    size: 10px;
+.container{
+    justify-content: center;
+    align-items: center;
 }
 .card{
     background: #f9ff51;
     color: #28182d;
+    justify-content: center;
 }
 .card-title{
-    align-items: center;
-    font-family: Romance Logic Demo;
+    font-family: 'Romance Logic Demo';
     font-weight: bold;
     height: 20px;
+    margin-left: 25%;
 }
+
 audio{
     max-width: 100%;
 }
 audio::-webkit-media-controls-panel{
-    background-color: #edb0fc;
+    background-color: #efadff;
+
 }
 audio::-webkit-media-controls-panel{
     justify-content: center;
 }
 .audio{
-    margin-left: 40px;
+    margin-left: 10%;
+}
+audio{
+    display: flex;
 }
