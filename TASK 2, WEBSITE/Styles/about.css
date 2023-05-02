@@ -5,7 +5,7 @@
     list-style: none;
 }
 body{
-    font-family: 'Franklin Gothic';
+    font-family: 'Franklin Gothic Regular';
     background: #28182d;
 }
 header{
@@ -175,10 +175,13 @@ footer{
     text-align: center;
     background-color: #1a051a;
     margin-top: 30px;
-    font-family: 'Poppins';
+    font-family: 'Romance Logic Demo';
     color: #fcf3ff;
     padding-bottom: 40px;
     padding-top: 10px;
+}
+p{
+    font-family: 'Poppins';
 }
 .socials a{
     color: #d094b9;
