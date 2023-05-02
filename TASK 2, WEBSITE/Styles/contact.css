@@ -97,8 +97,8 @@ a{
 .container{
     width: 500px;
     height: auto;
-    margin-top: 180px;
-    background-color: #d2c3d8;
+    margin-top: 200px;
+    background-color: #cbb0d8;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -119,8 +119,8 @@ a{
 h3{
     font-size: 35px;
     margin: 15px;
-    font-family: 'Poppins';
-    font-weight: 100px;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
 }
 .name{
     width: 100%;
