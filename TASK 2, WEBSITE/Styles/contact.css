@@ -5,11 +5,12 @@
     list-style: none;
 }
 body{
-    font-family: 'Franklin Gothic';
-    background: #28182d;
+    font-family:'Lato', san-serif;
+        background: #28182d;
 }
 header{
     width: 100%;
+   
     text-decoration: none;
     height: 40px;
     background: #f5fd10;
@@ -97,7 +98,7 @@ a{
     width: 500px;
     height: auto;
     margin-top: 180px;
-    background-color: #e0f358;
+    background-color: #d8eb4a;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -118,7 +119,8 @@ a{
 h3{
     font-size: 35px;
     margin: 15px;
-    font-family: 'Franklin Gothic';
+    font-family: 'Poppins';
+    font-weight: 100px;
 }
 .name{
     width: 100%;
@@ -139,7 +141,7 @@ h3{
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: #eee;
+    background-color: #efbfe4;
     border-radius: 40px;
 }
 .name input::placeholder{
@@ -165,7 +167,7 @@ h3{
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: #eee;
+    background-color: #efbfe4;
     border-radius: 40px;
 }
 .email input::placeholder{
@@ -182,7 +184,7 @@ h3{
     left: 30px;
     transform: translateY(-30%);
     font-size: 20px;
-    color: #797474;
+    color: #493b3b;
 }
 .message-box textarea{
     width: 100%;
@@ -191,7 +193,7 @@ h3{
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: #eee;
+    background-color: #efbfe4;
     border-radius: 20px;
 }
 .message-box textarea::placeholder{
