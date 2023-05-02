@@ -171,3 +171,20 @@ video{
 .name{
     font-family: 'Poppins';
 }
+footer{
+    text-align: center;
+    background-color: #1a051a;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    color: #fcf3ff;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.socials a{
+    color: #d094b9;
+    padding: 5px 10px;
+}
+.socials a:hover{
+    background:#ff54ce ;
+    color: #e9e9e9;
+}
