@@ -98,7 +98,7 @@ a{
     width: 500px;
     height: auto;
     margin-top: 180px;
-    background-color: #d8eb4a;
+    background-color: #d2c3d8;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -141,7 +141,7 @@ h3{
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: #efbfe4;
+    background-color: #d3dd9d;
     border-radius: 40px;
 }
 .name input::placeholder{
@@ -167,7 +167,7 @@ h3{
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: #efbfe4;
+    background-color: #d3dd9d;
     border-radius: 40px;
 }
 .email input::placeholder{
@@ -193,7 +193,7 @@ h3{
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: #efbfe4;
+    background-color: #d3dd9d;
     border-radius: 20px;
 }
 .message-box textarea::placeholder{
