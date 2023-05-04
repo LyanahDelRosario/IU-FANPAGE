@@ -4,6 +4,10 @@
     box-sizing: border-box;
     list-style: none;
 }
+@font-face {
+    font-family: 'Romance Logic Demo';
+    src: url(RomanceLogicDemo-Wy8BE.ttf);
+}
 body{
     font-family: 'Lato',sans-serif;
     background: #28182d;
@@ -169,7 +173,8 @@ video{
     font-size: 20px;
 }
 .name{
-    font-family: 'Poppins';
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 footer{
     text-align: center;
@@ -181,7 +186,7 @@ footer{
     padding-top: 10px;
 }
 p{
-    font-family: 'Poppins';
+    font-family: 'Open Sans', sans-serif;
 }
 .socials a{
     color: #d094b9;
