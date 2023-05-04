@@ -21,6 +21,10 @@ header{
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: 'Romance Logic Demo';
+    src: url(RomanceLogicDemo-Wy8BE.ttf);
+}
 .logo{
     font-family: 'Romance Logic Demo';
     font-size:30px;
@@ -142,7 +146,7 @@ h2{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins';
+    font-family: 'Lato, sans-serif';
 }
 .namePrice h4{
     font-size: 1.2em;
@@ -176,7 +180,7 @@ footer{
     text-align: center;
     background-color: #1a051a;
     margin-top: 30px;
-    font-family: 'Poppins';
+    font-family: 'Lato, sans-serif';
     color: #fcf3ff;
     padding-bottom: 30px;
     padding-top: 30px;
