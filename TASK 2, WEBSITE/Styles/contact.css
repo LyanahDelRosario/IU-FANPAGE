@@ -4,13 +4,16 @@
     box-sizing: border-box;
     list-style: none;
 }
+@font-face {
+    font-family: 'Romance Logic Demo';
+    src: url(RomanceLogicDemo-Wy8BE.ttf);
+}
 body{
     font-family:'Lato', san-serif;
         background: #28182d;
 }
 header{
     width: 100%;
-   
     text-decoration: none;
     height: 40px;
     background: #cbd11e;
@@ -75,7 +78,6 @@ a{
 .top-social a{
     padding: 5px;
     color: #28182d;
-    padding-left: 10px;
     padding-right: 10px;
 }
 .top-social a:hover{
@@ -119,7 +121,7 @@ a{
 h3{
     font-size: 35px;
     margin: 15px;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 .name{
@@ -138,6 +140,7 @@ h3{
 .name input{
     width: 100%;
     padding: 20px 60px;
+    padding-left: 10px;
     border: none;
     outline: none;
     font-size: 18px;
