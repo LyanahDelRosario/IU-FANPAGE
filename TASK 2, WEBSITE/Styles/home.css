@@ -4,8 +4,12 @@
     box-sizing: border-box;
     list-style: none;
 }
+@font-face {
+    font-family: 'Romance Logic Demo';
+    src: url(RomanceLogicDemo-Wy8BE.ttf);
+}
 body{
-    font-family: 'Lato',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: #28182d;
 }
 header{
@@ -136,7 +140,7 @@ footer{
     text-align: center;
     background-color: #1a051a;
     margin-top: 30px;
-    font-family: 'Poppins';
+    font-family: 'Open Sans', sans-serif;
     color: #fcf3ff;
     padding-bottom: 40px;
     padding-top: 10px;
