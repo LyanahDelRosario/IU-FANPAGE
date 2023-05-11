@@ -1,27 +1,34 @@
-function message(){
-    var Name = document.getElementById('name');
-    var email = document.getElementById('email');
-    var msg = document.getElementById('msg');
-    const success = document.getElementById('success');
-    const danger = document.getElementById('danger');
+document.getElementById('submit').onclick = function () {
+    validateForm()
+}
 
-    if(Name.value === '' || email.value === '' || msg.value === ''){
-        danger.style.display = 'block';
-    }
-    else{
-        setTimeout(() => {
-            Name.value = '';
-            email.value = '';
-            msg.value = '';
-        }, 2000);
+function validateForm() {
+    var errors = "";
 
-        success.style.display = 'block';
+    // Get value of element and storing it in variable
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    // Check if variables are empty
+    if (name == "") {
+        errors += "<li>* Please enter your name.</li>";
     }
 
+    if (email == "") {
+        errors += "<li>* Please enter your email.</li>";
+    }
 
-    setTimeout(() => {
-        danger.style.display = 'none';
-        success.style.display = 'none';
-    }, 4000);
+    if (message == "") {
+        errors += "<li>* Please enter your message.</li>";
+    }
 
+    if (errors != "") {
+        document.getElementById('errorList').innerHTML = errors;
+        return;
+    }
+    else {
+        document.getElementById('errorList').innerHTML = "";
+        window.open('mailto:Solmirae@gmail.com');
+    }
 }
