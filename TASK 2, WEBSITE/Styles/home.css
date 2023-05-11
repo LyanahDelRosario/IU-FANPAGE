@@ -115,6 +115,8 @@ a{
     background: #1a051a;
     color: #28182d;
     justify-content: center;
+    border-color: #9ba00f;
+    border-style:double;
 }
 .card-title{
     font-family: 'Romance Logic Demo';
